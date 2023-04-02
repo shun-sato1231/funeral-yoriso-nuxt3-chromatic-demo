@@ -50,7 +50,7 @@ export default {
 
 <style lang="scss" scoped>
 .table {
-  border-top: 1px solid var(--v-lighten-base);
+  border-top: 1px solid rgb(var(--v-theme-lighten));
   @include md-up {
     font-size: 18px !important;
   }
@@ -63,7 +63,7 @@ export default {
     @include md-up {
       font-size: 18px !important;
       padding: 15px;
-      background: var(--v-accentLighten-base);
+      background: rgb(var(--v-theme-accentLighten));
     }
     @include sm-down {
       font-size: 14px !important;
@@ -79,7 +79,7 @@ export default {
     }
   }
   .table-under-line {
-    border-bottom: 1px solid var(--v-lighten-base);
+    border-bottom: 1px solid rgb(var(--v-theme-lighten));
   }
 }
 </style>

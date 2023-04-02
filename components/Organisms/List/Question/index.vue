@@ -9,7 +9,7 @@
       <template v-slot:activator>
         <v-list-item-avatar>
           <v-avatar color="accentLighten3" size="40">
-            <span class="primaryText--text icon">Q</span>
+            <span class="text-primaryText icon">Q</span>
           </v-avatar>
         </v-list-item-avatar>
         <v-list-item-content class="mr-2 question">
@@ -20,7 +20,7 @@
       <v-list-item class="py-2 px-0">
         <v-list-item-avatar class="avater mt-0">
           <v-avatar color="primary" size="36">
-            <span class="primaryText--text icon">A</span>
+            <span class="text-primaryText icon">A</span>
           </v-avatar>
         </v-list-item-avatar>
         <v-list-item-content class="mr-2">

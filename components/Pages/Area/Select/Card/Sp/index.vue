@@ -64,7 +64,7 @@
             <div class="check">
               <i
                 v-if="item.tags && item.tags.includes(baseTag.name)"
-                class="accent--text fa-regular fa-circle"
+                class="text-accent fa-regular fa-circle"
               />
               <div v-else>-</div>
             </div>
@@ -204,14 +204,14 @@ export default {
 
 <style lang="scss" scoped>
 .header {
-  background-color: var(--v-accentLighten5-base);
+  background-color: rgb(var(--v-theme-accentLighten5));
   .title {
     a {
       font-weight: 700;
-      color: var(--v-primaryText-base);
+      color: rgb(var(--v-theme-primaryText));
       font-size: 20px;
       text-decoration: none;
-      border-left: 4px solid var(--v-primary-base);
+      border-left: 4px solid rgb(var(--v-theme-primary));
     }
   }
   .favorite-text {
@@ -223,7 +223,7 @@ export default {
   }
 }
 .access-area {
-  background-color: var(--v-secondary-base);
+  background-color: rgb(var(--v-theme-secondary));
   border: 1px solid #f3f0e4;
 }
 .access-detail-area {
@@ -240,7 +240,7 @@ export default {
     border-right: 1px solid #e5e5e5;
   }
   .select-tag {
-    background-color: var(--v-accentLighten5-base);
+    background-color: rgb(var(--v-theme-accentLighten5));
   }
   .check {
     width: 12px;
@@ -252,7 +252,7 @@ h4 {
   font-size: 14px;
   line-height: 32px;
   text-align: center;
-  background-color: var(--v-accentLighten5-base);
+  background-color: rgb(var(--v-theme-accentLighten5));
 }
 .reviews {
   .description {

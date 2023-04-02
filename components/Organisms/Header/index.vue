@@ -10,11 +10,12 @@
         text
         :href="$to('/membership/')"
         small
+        flat
       >
         <v-icon color="primary" class="user-question" size="11"
           >fa-caret-right</v-icon
         >
-        <span class="white--text">会員とは？</span>
+        <span class="text-white">会員とは？</span>
       </v-btn>
       <v-btn
         class="body-4 px-0 ml-2"
@@ -22,11 +23,12 @@
         small
         target="_blank"
         :href="'/login/'"
+        flat
       >
         <v-icon color="primary" class="user-login" size="11"
           >fa-caret-right</v-icon
         >
-        <span class="white--text">会員ログイン</span>
+        <span class="text-white">会員ログイン</span>
       </v-btn>
     </div>
 
@@ -43,7 +45,7 @@
       <v-spacer />
       <div class="flex-box hidden-sm-down">
         <div class="d-flex">
-          <div class="maincta-body-title accentLighten4 rounded">
+          <div class="maincta-body-title bg-accentLighten4 rounded">
             <p class="font-weight-bold mb-0">無料相談ダイヤル</p>
             <p class="mb-0 caption caption-block">24時間365日対応</p>
           </div>
@@ -93,17 +95,16 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
-import { useStore } from 'vuex';
 
 export default defineComponent({
   setup() {
-    const store = useStore();
+    const viewStore = useViewStore();
     const serviceIndex = ref(0);
 
-    const isRightDrawer = {
-      get: () => store.state.view.isRightDrawer,
-      set: (value: boolean) => store.commit('view/updateIsRightDrawer', value),
-    };
+    const isRightDrawer = computed({
+      get: () => viewStore.state.value.isRightDrawer,
+      set: (value: boolean) => viewStore.updateIsRightDrawer(value),
+    });
 
     const services = [
       {
@@ -154,7 +155,6 @@ export default defineComponent({
 }
 .onestop {
   margin-right: 23px;
-  margin-top: 16px;
   letter-spacing: -0.005em !important;
 }
 .caption-block {

@@ -37,7 +37,7 @@ export default {
 
 <style lang="scss">
 .theme--light.v-pagination .v-pagination__item--active {
-  color: var(--v-primaryText-base);
+  color: rgb(var(--v-theme-primaryText));
   font-weight: bold;
 }
 .v-pagination__navigation {

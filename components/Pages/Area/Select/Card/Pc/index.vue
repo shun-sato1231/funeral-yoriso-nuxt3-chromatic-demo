@@ -154,10 +154,10 @@ export default {
 
     a {
       font-weight: 700;
-      color: var(--v-primaryText-base);
+      color: rgb(var(--v-theme-primaryText));
       font-size: 24px;
       text-decoration: none;
-      border-left: 4px solid var(--v-primary-base);
+      border-left: 4px solid rgb(var(--v-theme-primary));
     }
   }
   .favorite-text {

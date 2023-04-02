@@ -61,6 +61,6 @@ export default {
   font-size: 18px !important;
   font-weight: 400;
   text-align: center;
-  background-color: var(--v-secondary-base);
+  background-color: rgb(var(--v-theme-secondary));
 }
 </style>

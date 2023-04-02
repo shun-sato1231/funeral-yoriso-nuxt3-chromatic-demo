@@ -25,7 +25,7 @@
     </div>
     <div class="policy-description my-6 body-1">
       形式にとらわれずに、家族が過ごした時間を想い、故人さまとの最後の時間を大切にしたお別れをしていただきたい。大規模でも豪華でもなく、令和の時代に合った<strong
-        class="accent--text"
+        class="text-accent"
         >ちょうどよいサイズ感でよりそいあえるお葬式</strong
       >をご提供したい。それが、わたしたちが「よりそう家族葬」をおこなう理由です。
     </div>

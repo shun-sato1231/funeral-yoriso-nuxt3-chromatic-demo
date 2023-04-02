@@ -53,9 +53,9 @@ export default {
 
 <style lang="scss" scoped>
 .tab-area {
-  border-bottom: solid var(--v-primary-base) 5px;
+  border-bottom: solid rgb(var(--v-theme-primary)) 5px;
   .tab {
-    color: var(--v-darken-base) !important;
+    color: rgb(var(--v-theme-darken)) !important;
     font-weight: 700;
     font-size: 20px;
     border-radius: 3px 3px 0px 0px;
@@ -65,7 +65,7 @@ export default {
     border-bottom: none;
   }
   .active-tab {
-    background-color: var(--v-primary-base) !important;
+    background-color: rgb(var(--v-theme-primary)) !important;
     border: none;
   }
 }

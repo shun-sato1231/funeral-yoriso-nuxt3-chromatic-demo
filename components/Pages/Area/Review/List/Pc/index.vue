@@ -50,7 +50,7 @@ export default {
 
 <style lang="scss" scoped>
 .left-dashed-line {
-  border-left: 1px dashed var(--v-lighten-base);
+  border-left: 1px dashed rgb(var(--v-theme-lighten));
   padding-left: 20px;
 }
 .description {

@@ -39,19 +39,15 @@ export const useViewStore = () => {
   };
 };
 
-// 葬儀場の履歴を初期化する関数
 const initFuneralHomeHistories = (state: Ref<State>) => {
-  // localStorage に historyFacilities が存在する場合
   state.value.funeralHomeHistories = localStorage.historyFacilities
-    ? // historyFacilities を JSON として解析し、葬儀場の情報を state に格納
-      JSON.parse(localStorage.historyFacilities).map((funeralHome: any) => {
+    ? JSON.parse(localStorage.historyFacilities).map((funeralHome: any) => {
         return {
-          code: funeralHome.facilityId, // 施設の ID を code に設定
-          name: funeralHome.facilityName, // 施設の名前を name に設定
+          code: funeralHome.facilityId,
+          name: funeralHome.facilityName,
         };
       })
-    : // localStorage に historyFacilities が存在しない場合、空の配列を設定
-      [];
+    : [];
 };
 
 const updateIsRightDrawer = (state: Ref<State>, isRightDrawer: boolean) => {

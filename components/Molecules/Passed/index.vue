@@ -251,7 +251,7 @@ export default {
                 background: #fff;
                 border-radius: 3px;
                 padding: 0 0.5em;
-                color: var(--v-primaryText-base);
+                color: rgb(var(--v-theme-primaryText));
               }
             }
           }

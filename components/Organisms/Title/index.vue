@@ -73,7 +73,7 @@ export default {
   @include md-down {
     height: 140px;
     padding: 20px 15px;
-    border-bottom: 1px solid var(--v-accentLighten3-base);
+    border-bottom: 1px solid rgb(var(--v-theme-accentLighten3));
   }
   @include md-up {
     height: 160px;
@@ -85,7 +85,7 @@ export default {
       font-size: 45px;
       font-weight: 700;
       display: block;
-      border-left: 8px solid var(--v-primary-base);
+      border-left: 8px solid rgb(var(--v-theme-primary));
       padding-left: 15px;
       line-height: 1.1;
       margin-bottom: 10px;

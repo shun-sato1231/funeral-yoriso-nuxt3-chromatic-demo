@@ -42,7 +42,7 @@ export default {
   vertical-align: initial;
   font-size: 14px !important;
   line-height: 1.2;
-  color: var(--v-primary-base);
+  color: rgb(var(--v-theme-primary));
   text-align: left;
 }
 .document-request-button-title {

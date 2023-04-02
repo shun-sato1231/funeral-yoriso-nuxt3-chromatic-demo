@@ -1,11 +1,11 @@
 <template>
-  <div class="sticky-banner white--text text-center">
+  <div class="sticky-banner text-white text-center">
     <p class="mt-2 mb-0">
-      <span class="font-weight-bold white--text">事前資料請求</span
+      <span class="font-weight-bold text-white">事前資料請求</span
       ><span class="caption">等で</span
       ><span class="font-weight-bold">お葬式</span
       ><span class="caption">が</span
-      ><span class="font-weight-bold primary--text"
+      ><span class="font-weight-bold text-primary"
         >最大<span class="number">3</span>万円割引</span
       ><span class="caption">※</span>
     </p>

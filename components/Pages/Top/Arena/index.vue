@@ -85,7 +85,7 @@
       <div class="flex-box pa-5">
         <div>
           <h2>お葬式の詳しい資料をお届け</h2>
-          <div class="subtitle-2 accent2--text">
+          <div class="subtitle-2 text-accent2">
             ご家族とのご検討でご利用ください
           </div>
           <div class="body-4">
@@ -141,16 +141,16 @@ export default {};
 
 <style lang="scss" scoped>
 .arena {
-  background-color: var(--v-accentLighten3-base);
+  background-color: rgb(var(--v-theme-accentLighten3));
   position: relative;
   height: 514px;
-  color: var(--v-darken-base);
+  color: rgb(var(--v-theme-darken));
   &:after {
     content: '';
     display: block;
     height: 100%;
     width: 100vw;
-    background-color: var(--v-primary-base);
+    background-color: rgb(var(--v-theme-primary));
     position: absolute;
     right: 36vw;
     top: 0;
@@ -199,7 +199,7 @@ export default {};
     width: 400px;
     font-weight: 700;
     font-size: 20px;
-    background-color: var(--v-accent-base);
+    background-color: rgb(var(--v-theme-accent));
     color: #fff;
     padding: 0 0.75em;
     border-radius: 100px;
@@ -266,7 +266,7 @@ export default {};
     background-color: hsla(0, 0%, 100%, 0.75);
     border: 1px solid #d8af10;
     a {
-      color: var(--v-accent-base);
+      color: rgb(var(--v-theme-accent));
       font-weight: bold;
     }
   }

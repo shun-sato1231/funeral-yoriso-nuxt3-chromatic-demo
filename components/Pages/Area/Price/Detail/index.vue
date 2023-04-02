@@ -16,7 +16,7 @@
     <v-row no-gutters class="table">
       <v-col cols="4" class="table-under-line table-title">
         <v-avatar color="primary" size="20">
-          <span class="font-weight-bold primaryText--text">a</span>
+          <span class="font-weight-bold text-primaryText">a</span>
         </v-avatar>
         絶対にかかる費用
       </v-col>
@@ -42,7 +42,7 @@
       </v-col>
       <v-col cols="4" class="table-under-line table-title">
         <v-avatar color="primary" size="20">
-          <span class="font-weight-bold primaryText--text">b</span>
+          <span class="font-weight-bold text-primaryText">b</span>
         </v-avatar>
         希望に応じてかかる費用
       </v-col>
@@ -61,7 +61,7 @@
           万円
         </div>
       </v-col>
-      <v-col cols="12" class="text-right total-box accent--text">
+      <v-col cols="12" class="text-right total-box text-accent">
         <span class="subtotal total-accent py-1">総額</span>
         <span class="number">{{
           $floorDecimal(city.city_funeral_survey.total_price / 10000, 0)
@@ -181,7 +181,7 @@ export default {
 
 <style lang="scss" scoped>
 .price-detail-area {
-  background: var(--v-accentLighten4-base);
+  background: rgb(var(--v-theme-accentLighten4));
   border-radius: 40px;
   padding: 36px 72px;
   .price-detail-title {
@@ -196,7 +196,7 @@ export default {
     display: inline-block;
     font-size: 16px;
     padding: 0 0.4em;
-    color: var(--v-darken-text);
+    color: rgb(var(--v-theme-darken-text);
     border: 1px solid;
     line-height: 23px;
     position: relative;
@@ -206,24 +206,24 @@ export default {
   }
   .table {
     background-color: #fff;
-    border: 1px solid var(--v-lighten-base);
+    border: 1px solid rgb(var(--v-theme-lighten));
     border-radius: 2px;
     margin-top: 15px;
     .table-under-line {
-      border-bottom: 1px solid var(--v-lighten-base);
+      border-bottom: 1px solid rgb(var(--v-theme-lighten));
     }
     .table-under-dashed-line {
-      border-bottom: 1px dashed var(--v-lighten-base);
+      border-bottom: 1px dashed rgb(var(--v-theme-lighten));
     }
     .table-right-dashed-line {
-      border-right: 1px dashed var(--v-lighten-base);
+      border-right: 1px dashed rgb(var(--v-theme-lighten));
     }
     .table-title {
-      background: var(--v-accentLighten5-base);
+      background: rgb(var(--v-theme-accentLighten5));
       padding: 15px 21px;
       width: 300px;
       font-weight: 700;
-      color: var(--v-accent-base);
+      color: rgb(var(--v-theme-accent));
     }
     .table-text {
       min-height: 57px;
@@ -254,7 +254,7 @@ export default {
   }
   .option-area {
     .option-title {
-      background: var(--v-darken-base);
+      background: rgb(var(--v-theme-darken));
       color: white;
       line-height: 2;
       font-weight: 700;

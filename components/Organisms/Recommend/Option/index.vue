@@ -34,11 +34,11 @@
       </div>
       <div class="ml-2 font-weight-bold">
         <span class="caption"
-          >お葬式と合わせて<span class="accent--text">約5割</span
+          >お葬式と合わせて<span class="text-accent">約5割</span
           >の方が利用</span
         >
         <p class="mb-2">お葬式にお坊さんを手配</p>
-        <div class="accent--text justify-center white number-area mx-auto">
+        <div class="text-accent justify-center white number-area mx-auto">
           <span class="option-number">55,000</span
           ><span class="d-inline-block mt-3">円〜</span>
         </div>

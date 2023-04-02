@@ -56,7 +56,7 @@
     font-weight: 400;
   }
   .soryo-card-price-area {
-    color: var(--v-accent-base);
+    color: rgb(var(--v-theme-accent));
     font-weight: 700 !important;
     vertical-align: initial;
     .soryo-card-price-total {

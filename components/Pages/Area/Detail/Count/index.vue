@@ -1,7 +1,7 @@
 <template>
   <div class="count-area mx-auto text-center sp-content">
     <h3 class="pt-5">
-      <v-card color="accent" tile flat class="white--text">
+      <v-card color="accent" tile flat class="text-white">
         {{ city.name }}の実績数
       </v-card>
     </h3>
@@ -92,7 +92,7 @@ export default {
     font-size: 28px;
     line-height: 35px;
     letter-spacing: -0.7px;
-    color: var(--v-accent-base);
+    color: rgb(var(--v-theme-accent));
     font-weight: bold;
   }
 }

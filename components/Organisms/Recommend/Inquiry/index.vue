@@ -13,7 +13,7 @@
     </div>
 
     <v-card flat color="accentLighten4" class="px-sp py-3">
-      <h3 class="text-center accent--text mb-2 body-2 font-weight-bold">
+      <h3 class="text-center text-accent mb-2 body-2 font-weight-bold">
         このようなお悩みはありませんか？
       </h3>
 
@@ -46,13 +46,13 @@
 <style lang="scss" scoped>
 .sp-content {
   .title {
-    background-color: var(--v-accentLighten2-base);
+    background-color: rgb(var(--v-theme-accentLighten2));
   }
   .cta {
     &__header {
       position: relative;
       padding: 10px 0 10px 10.66666667vw;
-      background-color: var(--v-accentLighten2-base);
+      background-color: rgb(var(--v-theme-accentLighten2));
     }
     &__heaer-image {
       position: absolute;
@@ -81,7 +81,7 @@
       margin-top: 10px;
       margin-bottom: 30px;
       padding: 2.66666667vw 5.33333333vw;
-      border: 2px solid var(--v-accentLighten2-base);
+      border: 2px solid rgb(var(--v-theme-accentLighten2));
       border-radius: 10px;
       background-color: #fff;
       &:before {

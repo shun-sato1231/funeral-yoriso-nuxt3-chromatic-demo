@@ -37,7 +37,7 @@
           <span class="utilwaribikiJoken-beforePlanCards__number">{{
             isFamily ? '3' : '1.5'
           }}</span
-          ><span class="accent--text">万円割引</span>
+          ><span class="text-accent">万円割引</span>
           <span class="d-block caption px-4"
             >{{
               isFamily ? '家族葬' : '火葬式'
@@ -62,7 +62,7 @@
       </v-col>
       <v-col class="px-2" cols="12" md="9" lg="9">
         <span
-          class="d-inline-block accent white--text rounded-circle caption-warning"
+          class="d-inline-block accent text-white rounded-circle caption-warning"
           >※</span
         >
         <span class="font-weight-bold body-3"

@@ -5,7 +5,7 @@
       src="/img/illust/yellow/illust_sogisha.webp"
       title="近隣の葬儀場をご案内"
       chip-text="葬儀場を探す"
-      description='厳選した<span class="font-weight-bold accent--text">4,000ヶ所</span>からご希望にあった場所をご利用ください'
+      description='厳選した<span class="font-weight-bold text-accent">4,000ヶ所</span>からご希望にあった場所をご利用ください'
       imageWidth="95"
       imageHeight="54"
     />

@@ -86,7 +86,7 @@ export default {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: var(--v-accentLighten3-base);
+  background-color: rgb(var(--v-theme-accentLighten3));
   z-index: 8;
   padding-bottom: calc(env(safe-area-inset-bottom));
 }
@@ -113,7 +113,7 @@ export default {
   font-weight: 700;
   .discount-price {
     display: inline-block;
-    color: var(--v-error-base);
+    color: rgb(var(--v-theme-error));
     font-size: 38px;
     font-family: Bebas_Neue_Pro, Impact, sans-serif;
   }

@@ -45,7 +45,7 @@
   font-weight: 700;
 }
 .plan-label {
-  background-color: var(--v-accent-base) !important;
+  background-color: rgb(var(--v-theme-accent)) !important;
   color: #fff;
   font-weight: 700;
   text-align: center;

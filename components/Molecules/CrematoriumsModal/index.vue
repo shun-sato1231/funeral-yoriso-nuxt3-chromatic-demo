@@ -397,7 +397,7 @@ export default {
         width: 100px;
         vertical-align: top;
         border-right: 1px solid #ccc;
-        background-color: var(--v-accentLighten3-base);
+        background-color: rgb(var(--v-theme-accentLighten3));
         text-align: left;
         font-weight: 400;
       }

@@ -47,10 +47,10 @@
         </v-card-title>
         <div class="price-text flex-box justify-center">
           <div class="total-price total-price-yoriso">総額</div>
-          <span class="number accent--text">{{
+          <span class="number text-accent">{{
             $floorDecimal(city.city_funeral_survey.total_price / 10000, 0)
           }}</span>
-          <span class="yen accent--text">万円</span>
+          <span class="yen text-accent">万円</span>
         </div>
       </v-card>
       <div class="caption my-2">
@@ -130,7 +130,7 @@ export default {
     background: #f3f3f3;
   }
   .price-title-yoriso {
-    background: var(--v-primary-base);
+    background: rgb(var(--v-theme-primary));
   }
   .price-arrow {
     width: 80px;

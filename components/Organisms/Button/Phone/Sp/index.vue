@@ -26,16 +26,13 @@
   </v-card>
 </template>
 
-<script>
-import { mapGetters } from 'vuex';
-
-export default {
-  computed: {
-    ...mapGetters({
-      phone: 'common/config/phone',
-    }),
+<script lang="ts">
+export default defineComponent({
+  setup() {
+    const { phone } = useCommonConfigStore();
+    return { phone };
   },
-};
+});
 </script>
 
 <style lang="scss">

@@ -101,7 +101,7 @@ export default {
 }
 .title-area {
   width: 206px;
-  color: var(--v-discountBlue-base);
+  color: rgb(var(--v-theme-discountBlue));
   font-size: 18px !important;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -123,7 +123,7 @@ export default {
       display: inline-block;
       margin-bottom: 2px;
       padding: 2px;
-      background-color: var(--v-discountBlue-base);
+      background-color: rgb(var(--v-theme-discountBlue));
       color: #fff;
       font-weight: 700;
       line-height: 25px;
@@ -166,7 +166,7 @@ export default {
       bottom: 0px;
       right: 0px;
       font-weight: 700;
-      color: var(--v-discountBlue-base);
+      color: rgb(var(--v-theme-discountBlue));
       font-size: 44.15px;
     }
   }

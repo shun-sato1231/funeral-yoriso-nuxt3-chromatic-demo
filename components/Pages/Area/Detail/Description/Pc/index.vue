@@ -32,7 +32,7 @@
       <div v-else class="description-area">
         <p class="body-1">
           周辺で対応可能な葬儀場をお探ししますので、<span
-            class="accent--text font-weight-bold"
+            class="text-accent font-weight-bold"
             >まずは{{ phone }}までお電話ください。</span
           >
           24時間365日専門の相談員が待機しておりますので、事前のご相談もお急ぎの場合もお気軽にご相談ください。

@@ -20,7 +20,7 @@
               'justify-center',
             ]"
           >
-            <div :class="[tab.isDivider ? 'divider' : '', 'primaryText--text']">
+            <div :class="[tab.isDivider ? 'divider' : '', 'text-primaryText']">
               <v-icon
                 v-if="tab.icon"
                 size="18"
@@ -136,7 +136,7 @@ export default {
   }
   .tab {
     text-align: center;
-    color: var(--v-darken-base);
+    color: rgb(var(--v-theme-darken));
     height: 50px;
 
     @include md-down {
@@ -158,7 +158,7 @@ export default {
       font-weight: bold;
     }
     &:active {
-      border-bottom: solid 3px var(--v-primary-base);
+      border-bottom: solid 3px rgb(var(--v-theme-primary));
     }
   }
   .divider {

@@ -39,7 +39,7 @@ export default {};
 .plan-title {
   font-size: 28px !important;
   .plan-title-point {
-    color: var(--v-accent-base);
+    color: rgb(var(--v-theme-accent));
     font-weight: bold;
   }
 }

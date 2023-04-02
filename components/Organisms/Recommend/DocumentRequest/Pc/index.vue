@@ -35,7 +35,7 @@
             <p class="maincta-body-subtitle">
               相談員がお客さまによりそいサポート
             </p>
-            <p class="maincta-body-description accentDarken--text mb-1">
+            <p class="maincta-body-description text-accentDarken mb-1">
               些細と思われることでもお気軽にお電話を
             </p>
 

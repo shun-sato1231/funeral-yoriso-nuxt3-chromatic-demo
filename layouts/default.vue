@@ -2,9 +2,9 @@
   <v-app>
     <v-main>
       <!-- 右ドロワー -->
-      <!-- <OrganismsDrawerRightDrawer /> -->
+      <OrganismsDrawerRightDrawer />
       <!-- ヘッダー -->
-      <OrganismsHeader />
+      <!-- <OrganismsHeader /> -->
       <!-- メインコンテンツ -->
       <slot />
       <!-- フッター -->
@@ -17,7 +17,7 @@
 import { mdiAccount } from '@mdi/js';
 import { onMounted, onUnmounted, ref } from 'vue';
 const viewStore = useViewStore();
-const { state } = viewStore;
+const favoriteStore = useFavoriteStore();
 
 const handleScroll = () => {
   viewStore.updateOffsetTop(window.scrollY);
@@ -28,7 +28,7 @@ onMounted(() => {
     window.addEventListener('scroll', handleScroll);
     viewStore.updateInflowUrl(location.href);
     viewStore.initFuneralHomeHistories();
-    //     store.dispatch("ending/favorite/initFavoriteFuneralHome");
+    favoriteStore.initFavoriteFuneralHome();
   }
 });
 onUnmounted(() => {

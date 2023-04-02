@@ -83,7 +83,7 @@ export default {
 .card-area {
   border: 2px solid #985253;
   border-radius: 5px;
-  background: var(--v-accentLighten4-base);
+  background: rgb(var(--v-theme-accentLighten4));
   .maincta-header-title {
     font-size: 16px;
     font-weight: 700;
@@ -105,7 +105,7 @@ export default {
     padding: 0 30px;
     font-weight: 700;
     text-align: center;
-    color: var(--v-accent2-base);
+    color: rgb(var(--v-theme-accent2));
     line-height: 30px;
     &:before {
       -webkit-transform: rotate(50deg) translateY(-50%);
@@ -119,7 +119,7 @@ export default {
       display: block;
       height: 1px;
       width: 26px;
-      background: var(--v-accent2-base);
+      background: rgb(var(--v-theme-accent2));
       margin-top: 7px;
       position: absolute;
     }
@@ -128,7 +128,7 @@ export default {
       display: block;
       height: 1px;
       width: 26px;
-      background: var(--v-accent2-base);
+      background: rgb(var(--v-theme-accent2));
       margin-top: 7px;
       position: absolute;
       -webkit-transform: rotate(-50deg) translateY(-50%);

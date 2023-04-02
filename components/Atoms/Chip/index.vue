@@ -29,7 +29,7 @@ export default {
   font-weight: 700;
   font-size: 12px;
   min-width: 108px;
-  border: 1px solid var(--v-lighten-base) !important;
+  border: 1px solid rgb(var(--v-theme-lighten)) !important;
   border-radius: 3px;
   line-height: 32px;
   height: 34px;
@@ -42,7 +42,7 @@ export default {
   }
 }
 .active {
-  background: var(--v-accentLighten3-base);
+  background: rgb(var(--v-theme-accentLighten3));
 }
 .disabled {
   background: white;

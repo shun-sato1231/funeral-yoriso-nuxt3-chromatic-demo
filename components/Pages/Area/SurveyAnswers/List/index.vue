@@ -116,7 +116,7 @@ export default {
   border-bottom-right-radius: initial;
 }
 .detail-title {
-  background: var(--v-accentLighten2-base);
+  background: rgb(var(--v-theme-accentLighten2));
   font-weight: bold;
   font-size: 12px;
   line-height: 22px;

@@ -24,7 +24,7 @@
   vertical-align: initial;
   font-size: 16px !important;
   line-height: 1.6;
-  color: var(--v-primary-base);
+  color: rgb(var(--v-theme-primary));
   text-align: left;
 }
 .document-request-button-title {

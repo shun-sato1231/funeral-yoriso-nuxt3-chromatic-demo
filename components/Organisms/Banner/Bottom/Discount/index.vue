@@ -9,7 +9,7 @@
           </v-btn>
         </div>
         <v-card width="175" :href="$to('/jizenwari/')">
-          <div class="title white--text">よりそう会員限定</div>
+          <div class="title text-white">よりそう会員限定</div>
           <div class="pa-2 banner-content">
             <div class="flex-box">
               <div>
@@ -25,9 +25,7 @@
                 <div>費用が</div>
               </div>
             </div>
-            <div
-              class="flex-box discountBlue--text font-weight-bold price-area"
-            >
+            <div class="flex-box text-discountBlue font-weight-bold price-area">
               <div class="price-description">最大</div>
               <span class="number price-accent"
                 ><span class="price-main">12</span></span
@@ -66,7 +64,7 @@ export default {
 
 <style lang="scss" scoped>
 .title {
-  background: var(--v-discountBlue-base);
+  background: rgb(var(--v-theme-discountBlue));
   padding: 5px 0 6px;
   text-align: center;
   letter-spacing: 0.1em;

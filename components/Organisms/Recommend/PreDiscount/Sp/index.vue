@@ -39,13 +39,13 @@
       <hr class="utilsonae-contents__hr" />
       <v-btn
         width="100%"
-        class="font-weight-bold primaryText--text body-2 mb-2"
+        class="font-weight-bold text-primaryText body-2 mb-2"
         :href="$to('/plan/jumbi/')"
         >お得な割引をすべて見る</v-btn
       >
       <v-btn
         width="100%"
-        class="font-weight-bold primaryText--text body-2"
+        class="font-weight-bold text-primaryText body-2"
         :href="$to('/membership/')"
         >よりそう会員の詳細を見る</v-btn
       >

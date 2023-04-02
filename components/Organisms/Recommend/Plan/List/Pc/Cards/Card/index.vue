@@ -192,7 +192,7 @@
     </div>
     <!-- 金額 -->
     <v-row class="mb-4 mt-1 mx-0 px-0" justify="space-around">
-      <v-col cols="4" class="discount body-3 accent--text pa-0">
+      <v-col cols="4" class="discount body-3 text-accent pa-0">
         事前資料請求
         <p class="absolute-text caption">などで</p>
         <p
@@ -210,7 +210,7 @@
           <span class="discount-prefix">万円割引</span>
         </p>
       </v-col>
-      <v-col cols="7" class="accent--text pl-0 pr-0 py-0">
+      <v-col cols="7" class="text-accent pl-0 pr-0 py-0">
         <span class="card-price-parent"
           ><span class="card-price"
             >{{ funeralPlan.price.toLocaleString() }} </span
@@ -323,11 +323,11 @@ export default {
   line-height: 45px;
 }
 .discount {
-  background-color: var(--v-accentLighten4-base);
+  background-color: rgb(var(--v-theme-accentLighten4));
   position: relative;
   font-size: 12px;
   font-weight: 700;
-  border: 2px solid var(--v-accent-base);
+  border: 2px solid rgb(var(--v-theme-accent));
   border-radius: 5px 5px 10px 10px;
   height: 70px;
   padding: 0 1px;
@@ -483,10 +483,10 @@ export default {
   }
 }
 .card-detail {
-  background-color: var(--v-secondary-base);
+  background-color: rgb(var(--v-theme-secondary));
   padding: 9px 10px;
   .card-detail-chip {
-    color: var(--v-accent-base);
+    color: rgb(var(--v-theme-accent));
     background: #fff;
     font-weight: 700;
     border-radius: 2px;
@@ -495,7 +495,7 @@ export default {
     font-size: 14px;
   }
   .card-detail-chip-vertical {
-    color: var(--v-accent-base);
+    color: rgb(var(--v-theme-accent));
     background: #fff;
     font-weight: 700;
     border-radius: 2px;

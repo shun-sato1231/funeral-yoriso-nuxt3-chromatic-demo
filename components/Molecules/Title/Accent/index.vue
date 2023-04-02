@@ -14,7 +14,7 @@
     </h2>
     <div class="text-center body-1 py-2">
       <span
-        class="accent--text font-weight-bold"
+        class="text-accent font-weight-bold"
         v-html="accent_text"
         v-if="accent_text"
       />

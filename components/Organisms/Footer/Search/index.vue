@@ -97,7 +97,7 @@ export default {
 .footer-title {
   font-size: 18px !important;
   font-weight: 700;
-  border-left: 4px solid var(--v-primary-base);
+  border-left: 4px solid rgb(var(--v-theme-primary));
   padding-left: 15px;
   margin-bottom: 27px;
   line-height: 1.2;

@@ -142,7 +142,7 @@ export default {
   height: 40px;
   line-height: 40px;
   font-size: 14px;
-  background: var(--v-accentLighten3-base);
+  background: rgb(var(--v-theme-accentLighten3));
   font-weight: 700;
   padding-left: 12px;
   min-width: 190px;
@@ -156,11 +156,11 @@ export default {
   height: 0;
   border-top: 20px solid white;
   border-bottom: 20px solid white;
-  border-left: 20px solid var(--v-accentLighten3-base);
+  border-left: 20px solid rgb(var(--v-theme-accentLighten3));
 }
 .right-none {
   width: 0;
   height: 0;
-  border: 20px solid var(--v-accentLighten3-base);
+  border: 20px solid rgb(var(--v-theme-accentLighten3));
 }
 </style>

@@ -3,7 +3,7 @@
     <v-scale-transition>
       <a
         v-if="phone"
-        class="btn-phone btn-phone-emergency error--text"
+        class="btn-phone btn-phone-emergency text-error"
         :href="'tel:' + phone"
       >
         <v-icon size="26" :color="isCta ? 'accentDarken' : 'error'" class="mb-2"
@@ -71,7 +71,7 @@ export default {
     margin-right: 2px;
   }
   .is-cta {
-    color: var(--v-accentDarken-base);
+    color: rgb(var(--v-theme-accentDarken));
     font-size: 44px !important;
   }
 }

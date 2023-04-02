@@ -78,7 +78,7 @@ export default {
 <style lang="scss" scoped>
 .sp-content {
   .title {
-    background-color: var(--v-accentLighten2-base);
+    background-color: rgb(var(--v-theme-accentLighten2));
   }
 }
 </style>

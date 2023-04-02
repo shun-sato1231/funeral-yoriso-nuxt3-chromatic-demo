@@ -24,7 +24,7 @@
             cols="12"
             sm="7"
             md="9"
-            class="font-weight-bold text-h6 accent--text sp-center"
+            class="font-weight-bold text-h6 text-accent sp-center"
           >
             総額{{ $formatPrice(city.benefit.total_price) }}
           </v-col>
@@ -128,7 +128,7 @@ export default {
       text-align: center;
     }
   }
-  .accent--text {
+  .text-accent {
     font-size: 23px;
     font-weight: 700;
   }

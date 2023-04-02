@@ -114,6 +114,6 @@ export default {
 
 <style lang="scss" scoped>
 .icon {
-  background-color: var(--v-accent-base);
+  background-color: rgb(var(--v-theme-accent));
 }
 </style>

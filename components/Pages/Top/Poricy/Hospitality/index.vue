@@ -2,8 +2,7 @@
   <div class="l-contentBox__moduleBody">
     <h3 class="text-center">
       <span class="title-small">よりそうお葬式だからできる、故人を偲ぶ</span
-      ><strong class="accent--text"
-        ><span class="title-number">4</span>つ</strong
+      ><strong class="text-accent"><span class="title-number">4</span>つ</strong
       >のお別れ演出
     </h3>
     <p class="text-center body-1">家族葬セットプラン内にすべて含まれています</p>
@@ -26,7 +25,7 @@
           </v-card>
           <v-card-title class="justify-center py-2">
             <h4 class="point-title body-1">
-              <div class="accent--text font-weight-bold" v-text="point.title" />
+              <div class="text-accent font-weight-bold" v-text="point.title" />
               <div class="point-subtitle" v-text="point.subtitle" />
             </h4>
           </v-card-title>

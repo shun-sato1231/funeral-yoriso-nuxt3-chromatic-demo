@@ -40,7 +40,7 @@ export default {
   white-space: nowrap;
   overflow: auto;
   @include sm-down {
-    background-color: var(--v-accentLighten-base);
+    background-color: rgb(var(--v-theme-accentLighten));
     border-bottom: 1px solid #e5e5e5;
     padding: 0 6px;
   }

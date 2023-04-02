@@ -16,13 +16,13 @@
             <span class="strong-yoriso">よりそう会員</span>なら、資料請求などで
           </p>
           <p class="font-weight-bold discount-wrapper mb-0">
-            お葬式費用が最大<span class="accent--text discount-number">3</span
-            ><span class="accent--text">万円割引</span>
+            お葬式費用が最大<span class="text-accent discount-number">3</span
+            ><span class="text-accent">万円割引</span>
           </p>
         </v-col>
         <v-col cols="5">
           <a
-            class="button-wrapper primary primaryText--text rounded pt-3 px-2 text-center mr-4"
+            class="button-wrapper primary text-primaryText rounded pt-3 px-2 text-center mr-4"
             href="/sogi/request/"
           >
             <p class="mb-0">今すぐ資料請求をして</p>

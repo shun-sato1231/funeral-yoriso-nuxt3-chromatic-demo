@@ -18,7 +18,7 @@
       {{ city.prefecture.full_name }}{{ city.name }} の平均葬儀費用
     </h3>
     <div class="body-1 pb-5">
-      よりそうお葬式なら、<b class="accent--text">全国平均の半額程度</b
+      よりそうお葬式なら、<b class="text-accent">全国平均の半額程度</b
       >でお葬式をあげられます
     </div>
     <PagesAreaPriceAverage :city="city" />
