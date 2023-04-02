@@ -1,0 +1,163 @@
+@use 'vuetify';
+
+$content-width-size: 1000px;
+$subcontent-width-size: 768px;
+
+// デフォルトフォントサイズ
+$font-size-root: 18px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 600px,
+  md: 1040px,
+  lg: 1264px - 24px,
+  xl: 1904px - 24px,
+);
+
+$sm-breakpoint: map-get($grid-breakpoints, 'sm');
+$md-breakpoint: map-get($grid-breakpoints, 'md');
+$lg-breakpoint: map-get($grid-breakpoints, 'lg');
+$xl-breakpoint: map-get($grid-breakpoints, 'xl');
+
+$headings: (
+  //   // "h1": (
+  //     //   "size": 3.3125rem,
+  //     //   "line-height": 1.15em
+  //     // ),
+  // "h2": (
+  //   "size": 2.25rem,
+  //   "line-height": 1.5em,
+  //   font-size: 1.25em
+  // ),
+  //     // "h3": (
+  //     //   "size": 1.5625rem,
+  //     //   "line-height": 1.4em
+  //     // ),
+  //     // "h4": (
+  //     //   "size": 1.125rem,
+  //     //   "line-height": 1.4em
+  //     // ),
+  //     // "h5": (
+  //     //   "size": 1.0625rem
+  //     // ),
+  //     // "h6": (
+  //     //   "size": 0.75rem
+  //     // ),
+  //     // "subtitle-2": (
+  //     //   "size": 1rem
+  //     // ),
+  //     // "overline": (
+  //     //   "letter-spacing": 0
+  //     // )
+);
+
+// Extra small devices: on screens that are 599px wide or less
+@mixin xs {
+  @media only screen and (max-width: $sm-breakpoint - 1) {
+    @content;
+  }
+}
+
+// Small devices: when the width is between 600px and 959px
+@mixin sm {
+  @media screen and (min-width: $sm-breakpoint) and (max-width: $md-breakpoint - 1) {
+    @content;
+  }
+}
+
+// Medium devices: when the width is between 960px and 1263px
+@mixin md {
+  @media screen and (min-width: $md-breakpoint) and (max-width: $lg-breakpoint - 1) {
+    @content;
+  }
+}
+
+// Large devices: when the width is between 1264px and 1903px
+@mixin lg {
+  @media only screen and (min-width: $lg-breakpoint) and (max-width: $xl-breakpoint - 1) {
+    @content;
+  }
+}
+
+// Extra large devices: on screens that are 1904px wide or above
+@mixin xl {
+  @media only screen and (min-width: $xl-breakpoint) {
+    @content;
+  }
+}
+
+// On screens that are 600px wide or above
+@mixin sm-up {
+  @media only screen and (min-width: $sm-breakpoint) {
+    @content;
+  }
+}
+
+// On screens that are 960px wide or above
+@mixin md-up {
+  @media only screen and (min-width: $md-breakpoint) {
+    @content;
+  }
+}
+
+// On screens that are 1264px wide or above
+@mixin lg-up {
+  @media only screen and (min-width: $lg-breakpoint) {
+    @content;
+  }
+}
+
+// On screens that are 959px wide or below
+@mixin sm-down {
+  @media only screen and (max-width: $md-breakpoint - 1) {
+    @content;
+  }
+}
+
+// On screens that are 1363px wide or above
+@mixin md-down {
+  @media only screen and (max-width: $lg-breakpoint - 1) {
+    @content;
+  }
+}
+
+// On screens that are 1903px wide or above
+@mixin lg-down {
+  @media only screen and (max-width: $xl-breakpoint - 1) {
+    @content;
+  }
+}
+
+// $btn-border-radius: 0px;
+
+// Modifying a SASS map variable
+// $material-light: (
+//   // cards: blue
+// );
+
+// $navigation-drawer-border-width: 0px;
+// $btn-outline-border-width: 2px;
+// $font-size-root: 20px;
+// $background-color: #eee;
+// $sheet-border-radius: 4px;
+// $list-item-title-font-size: 0.929rem;
+// $list-item-dense-title-font-size: 0.929rem;
+// $list-item-dense-title-font-weight: initial;
+// $cancel-color: #E0E0E0;
+// $inspection-color: #C8E6C9;
+// $hold-color: #FFF9C4;
+//
+// $fab-icon-sizes: (
+//   small: 20
+// );
+// $btn-font-sizes: (
+//   default: 1rem,
+//   large: 1rem
+// );
+// $btn-sizes: (
+//   default: 41,
+//   large: 54
+// );
+// $btn-letter-spacing: 0;
+// $btn-font-weight: 400;
+// $card-text-font-size: 16px;

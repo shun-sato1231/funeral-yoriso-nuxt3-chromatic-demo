@@ -1,13 +1,30 @@
-import { createVuetify } from "vuetify";
-import { aliases, mdi } from "vuetify/iconsets/mdi-svg";
+import { createVuetify, ThemeDefinition } from 'vuetify';
+import { aliases, mdi } from 'vuetify/iconsets/mdi-svg';
 
-import {
-  MAIN_THEME,
-  mainTheme,
-  MAIN_DARK_THEME,
-  mainDarkTheme,
-} from "@/helpers/themes";
-import { defaults } from "~~/helpers/defaults";
+const myCustomLightTheme: ThemeDefinition = {
+  dark: false,
+  colors: {
+    primary: '#F3D45B',
+    secondary: '#FBFAF6',
+    darken: '#545458',
+    darkest: '#757580',
+    lighten: '#aaa',
+    error: '#C25155',
+    accent: '#CE7B4C',
+    accent2: '#4071A1',
+    anchor: '#006ada',
+    primaryText: '#545458',
+    formText: '#fcfbe9',
+    discountBlue: '#21559b',
+    accentLighten: '#F7F7F7',
+    accentLighten2: '#e7e0ba',
+    accentLighten3: '#f3f0e4',
+    accentLighten4: '#fbfaf5',
+    accentLighten5: '#F4F0E4',
+    accentDarken: '#985253',
+  },
+};
+import { defaults } from '~~/helpers/defaults';
 
 export default defineNuxtPlugin((app) => {
   const vuetify = createVuetify({
@@ -15,20 +32,13 @@ export default defineNuxtPlugin((app) => {
     defaults,
     // add theme
     theme: {
-      defaultTheme: MAIN_THEME,
+      defaultTheme: 'myCustomLightTheme',
       themes: {
-        mainTheme,
-        mainDarkTheme,
-      },
-      // add color variations
-      variations: {
-        colors: ["primary", "secondary"],
-        lighten: 3,
-        darken: 3,
+        myCustomLightTheme,
       },
     },
     icons: {
-      defaultSet: "mdi",
+      defaultSet: 'mdi',
       aliases,
       sets: {
         mdi,

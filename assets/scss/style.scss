@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Bebas_Neue_Pro';
+  src: url('https://cdn.yoriso.com/sogi/renewal/fonts/bebas-neue-pro/BebasNeuePro-Regular.ttf')
+    format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas_Neue_Pro';
+  src: url('https://cdn.yoriso.com/sogi/renewal/fonts/bebas-neue-pro/BebasNeuePro-Middle.ttf')
+    format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas_Neue_Pro';
+  src: url('https://cdn.yoriso.com/sogi/renewal/fonts/bebas-neue-pro/BebasNeuePro-Bold.ttf')
+    format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('https://cdn.yoriso.com/sogi/cdnXn/themes/kakuyasusougi/fonts/googlefonts/roboto/Roboto-Bold.ttf')
+      format('ttf'),
+    url('https://cdn.yoriso.com/sogi/cdnXn/themes/kakuyasusougi/fonts/googlefonts/roboto/Roboto-Bold.woff2')
+      format('woff2'),
+    url('https://cdn.yoriso.com/sogi/cdnXn/themes/kakuyasusougi/fonts/googlefonts/roboto/Roboto-Bold.woff')
+      format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('https://cdn.yoriso.com/sogi/cdnXn/themes/kakuyasusougi/fonts/googlefonts/roboto/Roboto-Medium.ttf')
+      format('ttf'),
+    url('https://cdn.yoriso.com/sogi/cdnXn/themes/kakuyasusougi/fonts/googlefonts/roboto/Roboto-Medium.woff2')
+      format('woff2'),
+    url('https://cdn.yoriso.com/sogi/cdnXn/themes/kakuyasusougi/fonts/googlefonts/roboto/Roboto-Medium.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '200';
+  src: url('https://cdn.yoriso.com/sogi/cdnXn/themes/kakuyasusougi/fonts/googlefonts/roboto/Roboto-Regular.ttf')
+      format('ttf'),
+    url('https://cdn.yoriso.com/sogi/cdnXn/themes/kakuyasusougi/fonts/googlefonts/roboto/Roboto-Regular.woff2')
+      format('woff2'),
+    url('https://cdn.yoriso.com/sogi/cdnXn/themes/kakuyasusougi/fonts/googlefonts/roboto/Roboto-Regular.woff')
+      format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('https://cdn.yoriso.com/sogi/cdnXn/themes/kakuyasusougi/fonts/googlefonts/roboto/Roboto-Thin.ttf')
+      format('ttf'),
+    url('https://cdn.yoriso.com/sogi/cdnXn/themes/kakuyasusougi/fonts/googlefonts/roboto/Roboto-Thin.woff2')
+      format('woff2'),
+    url('https://cdn.yoriso.com/sogi/cdnXn/themes/kakuyasusougi/fonts/googlefonts/roboto/Roboto-Thin.woff')
+      format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+html {
+  color: var(--v-darken-base);
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.hyper-link {
+  color: #2e5985 !important;
+  text-decoration: underline;
+  padding: 0px;
+}
+
+.img {
+  width: 100%;
+}
+
+.number {
+  font-family: Bebas_Neue, Impact, sans-serif;
+  letter-spacing: 1px;
+}
+
+.icon-ring {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  border: 4px solid var(--v-primary-base);
+  display: inline-block;
+}
+
+.btn-phone {
+  font-family: Roboto, Arial, Helvetica;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+}
+
+.accent-title {
+  border-left: 8px solid var(--v-primary-base);
+  padding-left: 14px;
+}
+
+.accent-title-bottom {
+  font-weight: 700;
+  border-bottom: 3px solid #f3d45b;
+  display: inline-block;
+  @include md-up {
+    padding-bottom: 6px;
+  }
+}
+
+.subtitle {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 9px;
+  font-size: 24px !important;
+  font-weight: 700;
+  margin: 15px 0 10px 0;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nowrap {
+  white-space: nowrap;
+}

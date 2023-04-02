@@ -1,0 +1,108 @@
+@import vuetify-material/card
+@import vuetify-material/system-bar
+@import vuetify-material/chip
+@import vuetify-material/btn
+@import vuetify-material/list
+@import vuetify-material/breadcrumbs
+
+.v-application
+  font-family: "Hiragino Kaku Gothic Pro, Meiryo, 'MS Pゴシック', Osaka, Arial, Sans-serif", sans-serif
+  line-height: 1.5
+
+  .text-h1
+    font-size: 45px !important
+    font-weight: 700
+    line-height: 1.1
+
+  .text-h2
+    font-size: 30px !important
+    font-weight: 700
+
+  .text-h3
+    font-size: 28px !important
+    font-weight: 700
+
+  .text-h4
+    font-size: 26px !important
+    font-weight: 700
+
+  .text-h5
+    font-size: 24px !important
+    font-weight: 700
+
+  .text-h6
+    font-size: 20px !important
+    font-weight: 700
+
+  .subtitle-2
+    font-weight: 700
+
+  .body-1
+    font-size: 20px !important
+    line-height: 1.8
+
+  .body-2
+    font-size: 18px !important
+    line-height: 1.5
+
+  .body-3
+    font-size: 16px !important
+    line-height: 1.4
+
+  .body-4
+    font-size: 14px !important
+    line-height: 1.6
+    font-weight: 400
+
+  .caption
+    font-size: 12px !important
+    font-family: Hiragino Kaku Gothic Pro,Meiryo,"\FF2D\FF33 \FF30\30B4\30B7\30C3\30AF",Osaka,Arial,Sans-serif !important
+
+  .v-btn
+    letter-spacing: -0.03em
+
+.container, .content
+  max-width: $content-width-size
+  margin: 0 auto
+
+.sp-content
+  @include sm-down
+    max-width: 500px
+  margin: 0 auto
+
+.subcontent
+  max-width: $subcontent-width-size
+  margin: 0 auto
+
+.theme--light.v-application
+  color: var(--v-darken-base)
+
+.px-sp
+  @include sm-down
+    padding: 0 15px
+
+// 非表示系
+.hidden-xs
+  @include xs
+    display: none !important
+.hidden-sm-up
+  @include sm-up
+    display: none !important
+.hidden-sm-down
+  @include sm-down
+    display: none !important
+.hidden-md-up
+  @include md-up
+    display: none !important
+.hidden-md-down
+  @include md-down
+    display: none !important
+.hidden-lg-up
+  @include lg-up
+    display: none !important
+.hidden-lg-down
+  @include lg-down
+    display: none !important
+.hidden-xl
+  @include xl
+    display: none !important
