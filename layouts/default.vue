@@ -1,8 +1,9 @@
 <template>
   <v-app>
     <v-main>
+      <v-icon :icon="mdiAccount"></v-icon>
       <VTextField
-        prepend-inner-icon="mdi-vuetify"
+        :prepend-inner-icon="mdiAccount"
         id="password"
         name="password"
         type="password"
@@ -25,6 +26,7 @@
 </template>
 
 <script lang="ts" setup>
+import { mdiAccount } from "@mdi/js";
 import { onMounted, onUnmounted, ref } from "vue";
 const counterStore = useCounterStore();
 const { state } = counterStore;
