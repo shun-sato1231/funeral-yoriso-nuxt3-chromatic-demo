@@ -11,39 +11,19 @@ const url = 'https://vuetify3nuxt3starter.behonbaker.com/';
 export default defineNuxtConfig({
   // server side rendering mode
   ssr: true,
-
-  // // typescripts
-  // typescript: {
-  //   strict: true,
-  //   typeCheck: true,
-  // },
-
   // css
-  css: [
-    // '~/assets/scss/variables.scss',
-    // '~/assets/scss/overrides.sass',
-    '~/assets/scss/style.scss',
-  ],
-
-  // plugins
-  plugins: [{ src: '~/plugins/common.js' }],
+  css: ['@/assets/scss/style.scss'],
 
   // build
   build: {
     transpile: ['vuetify'],
   },
 
-  // modules
-  modules: [
-    // this adds the vuetify vite plugin
-    // also produces type errors in the current beta release
-    async (options, nuxt) => {
-      // @ts-ignore
-      nuxt.hooks.hook('vite:extendConfig', (config) =>
-        config.plugins.push(vuetify())
-      );
+  hooks: {
+    'vite:extendConfig': (config) => {
+      config.plugins!.push(vuetify());
     },
-  ],
+  },
 
   // auto import components
   components: true,
@@ -59,8 +39,7 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: `@use "@/assets/scss/_variables.scss" as *; \
-            @import "@/assets/scss/_overrides.sass";`,
+          additionalData: `@use "@/assets/scss/_variables.scss" as *;`,
         },
       },
     },

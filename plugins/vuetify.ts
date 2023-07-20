@@ -2,7 +2,7 @@ import { createVuetify } from 'vuetify';
 import { aliases, mdi } from 'vuetify/iconsets/mdi-svg';
 
 import { MAIN_THEME, mainTheme } from '@/helpers/themes';
-import { defaults } from '~~/helpers/defaults';
+import { defaults } from '@/helpers/defaults';
 
 export default defineNuxtPlugin((app) => {
   const vuetify = createVuetify({
