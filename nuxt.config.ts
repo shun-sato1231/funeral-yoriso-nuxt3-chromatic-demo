@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ['vuetify'],
   },
-
+  modules: ['@pinia/nuxt'],
   hooks: {
     'vite:extendConfig': (config) => {
       config.plugins!.push(vuetify());
