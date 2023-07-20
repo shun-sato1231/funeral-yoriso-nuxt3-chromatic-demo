@@ -23,5 +23,6 @@
     "pinia": "^2.1.4",
     "vite-plugin-vuetify": "^1.0.0",
     "vuex": "^4.1.0"
-  }
+  },
+  "packageManager": "yarn@3.6.1"
 }
