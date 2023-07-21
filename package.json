@@ -8,7 +8,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_d654175260ad85f"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
@@ -22,6 +23,7 @@
     "@storybook/vue3": "^7.1.0",
     "@storybook/vue3-vite": "^7.1.0",
     "@types/node": "^18.15.11",
+    "chromatic": "^6.19.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.60.0",
