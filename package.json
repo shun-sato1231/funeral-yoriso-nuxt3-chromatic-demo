@@ -6,20 +6,33 @@
     "generate": "nuxt generate",
     "reset": "rm -rf .nuxt node_modules .output package-lock.json && npm install",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
     "@mdi/js": "^7.2.96",
     "@nuxtjs/google-fonts": "^3.0.0-1",
+    "@storybook/addon-essentials": "^7.1.0",
+    "@storybook/addon-interactions": "^7.1.0",
+    "@storybook/addon-links": "^7.1.0",
+    "@storybook/blocks": "^7.1.0",
+    "@storybook/testing-library": "^0.2.0",
+    "@storybook/vue3": "^7.1.0",
+    "@storybook/vue3-vite": "^7.1.0",
     "@types/node": "^18.15.11",
-    "nuxt": "3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sass": "^1.60.0",
     "sass-loader": "^13.2.2",
+    "storybook": "^7.1.0",
     "vuetify": "^3.0.3"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.8",
     "dayjs": "^1.11.9",
+    "nuxt": "^3.6.5",
     "pinia": "^2.1.4",
     "vite-plugin-vuetify": "^1.0.0",
     "vuex": "^4.1.0"

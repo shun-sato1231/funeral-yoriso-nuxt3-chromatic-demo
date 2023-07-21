@@ -2,6 +2,7 @@
   <p>nuxt3実装中</p>
   <p>{{ phone }}</p>
   <p>{{ formatYMD('19990101') }}</p>
+  <UiButton>ボタン</UiButton>
 </template>
 
 <script lang="ts" setup>
