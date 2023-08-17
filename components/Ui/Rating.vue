@@ -13,14 +13,14 @@ const { size, rating } = defineProps<Props>();
       <template v-slot:item="props">
         <v-icon
           color="#F26A0C"
-          :size="size === 'm' ? 16 : 12"
+          :size="size === 'm' ? 24 : 22"
           :class="props.index !== 9 ? `mr-1` : ''"
         >
           {{ props.isFilled ? 'fa fa-star' : 'fa-regular fa-star' }}
         </v-icon>
       </template>
     </v-rating>
-    <span class="ml-2 font-weight-bold text-subtitle-1">
+    <span class="ml-2 font-weight-bold text-h4">
       {{ Number(rating).toFixed(1) }}
     </span>
   </div>
