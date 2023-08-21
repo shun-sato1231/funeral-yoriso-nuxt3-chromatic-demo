@@ -13,6 +13,7 @@ const emit = defineEmits<Emits>();
 
 <template>
   <v-btn color="primary" @click="emit('click')" :disabled="props.disabled">
+    <v-icon>fa fa-chevron-right</v-icon>
     <slot />
   </v-btn>
 </template>
